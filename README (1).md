@@ -36,7 +36,7 @@ The central hypothesis: *Do traders perform better or worse depending on prevail
 ## 📁 Dataset Description
 
 ### 1. Bitcoin Fear & Greed Index (`fear_greed_index.csv`)
-- **Source:** [Alternative.me Crypto Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+- **Source:** [Fear Greed Index link](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
 - **Granularity:** Daily
 - **Key Columns:**
   - `date` — Calendar date
@@ -45,7 +45,7 @@ The central hypothesis: *Do traders perform better or worse depending on prevail
 - **Description:** A composite sentiment index calculated from volatility, market momentum, social media activity, dominance, and trends. Widely used as a contrarian indicator in crypto markets.
 
 ### 2. Hyperliquid Historical Trading Data (`historical_data.csv`)
-- **Source:** [Hyperliquid on-chain perpetual futures data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
+- **Source:** [Historical Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
 - **Granularity:** Per-trade
 - **Key Columns:**
   - `Timestamp IST` — Trade execution timestamp (Indian Standard Time)
