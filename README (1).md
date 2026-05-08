@@ -36,7 +36,7 @@ The central hypothesis: *Do traders perform better or worse depending on prevail
 ## 📁 Dataset Description
 
 ### 1. Bitcoin Fear & Greed Index (`fear_greed_index.csv`)
-- **Source:** [Alternative.me Crypto Fear & Greed Index](https://alternative.me/crypto/fear-and-greed-index/)
+- **Source:** [Alternative.me Crypto Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
 - **Granularity:** Daily
 - **Key Columns:**
   - `date` — Calendar date
@@ -45,7 +45,7 @@ The central hypothesis: *Do traders perform better or worse depending on prevail
 - **Description:** A composite sentiment index calculated from volatility, market momentum, social media activity, dominance, and trends. Widely used as a contrarian indicator in crypto markets.
 
 ### 2. Hyperliquid Historical Trading Data (`historical_data.csv`)
-- **Source:** Hyperliquid on-chain perpetual futures data
+- **Source:** [Hyperliquid on-chain perpetual futures data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
 - **Granularity:** Per-trade
 - **Key Columns:**
   - `Timestamp IST` — Trade execution timestamp (Indian Standard Time)
@@ -205,7 +205,7 @@ PnL distribution analysis shows that Extreme Fear periods generate the widest sp
 bitcoin-sentiment-trader-analysis/
 │
 ├── code.ipynb                  # Main analysis notebook
-├── historical_data.csv         # Hyperliquid trade-level data
+├── historical_data.csv         # not uploaded due to size restrictions (download from the link given under dataset section)
 ├── fear_greed_index.csv        # Bitcoin Fear & Greed Index (daily)
 └── README.md                   # Project documentation
 ```
@@ -264,27 +264,15 @@ Your browser will open automatically. Run all cells sequentially with **Kernel �
 
 ## 👤 Author
 
-**[Your Name]**
+**SRIHITHA CHAYANAM**
 
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- 🐙 GitHub: [@srihithachayanam](https://github.com/srihithachayanam)
+- 💼 LinkedIn: [linkedin.com/in/srihitha-chayanam-092126303/](https://www.linkedin.com/in/srihitha-chayanam-092126303/)
 
-Feel free to reach out for collaborations, feedback, or opportunities in data science, quant research, or crypto analytics.
-
----
-
-## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
 <p align="center">
   Built with curiosity and conviction — where on-chain data meets market psychology.
 </p>
