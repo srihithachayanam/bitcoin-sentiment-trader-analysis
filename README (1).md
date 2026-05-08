@@ -25,11 +25,26 @@
 
 ## 🧭 Project Overview
 
-This project investigates the relationship between **macro market sentiment** and **individual trader performance** in the Bitcoin perpetual futures market. By merging on-chain trading data from [Hyperliquid](https://hyperliquid.xyz/) with the widely-used Bitcoin Fear & Greed Index, this analysis quantifies how sentiment states — from Extreme Fear to Extreme Greed — influence trading behavior, profitability, win rates, and position sizing.
+This project analyzes the relationship between **Bitcoin market sentiment** and **trader performance** using datasets provided as part of a technical assignment.
 
-The central hypothesis: *Do traders perform better or worse depending on prevailing market sentiment — and does the crowd's emotion create exploitable edge?*
+The analysis combines two datasets:
 
-**This is not just descriptive analytics.** The findings carry direct implications for systematic strategy design, risk management, and contrarian signal generation in crypto derivatives markets.
+1. **Bitcoin Fear & Greed Index** – a widely used market sentiment indicator that measures emotions such as fear and greed in the crypto market.
+2. **Hyperliquid Historical Trading Data** – trade-level data containing execution details such as trade direction, size, leverage, and realized profit or loss.
+
+The objective of this project is to investigate how different **market sentiment regimes** — *Extreme Fear, Fear, Neutral, Greed, and Extreme Greed* — influence trading behavior and profitability.
+
+To achieve this, the datasets were merged on a daily basis and analyzed to understand how sentiment affects:
+
+- Average and total trader profitability (PnL)
+- Win rate of trades
+- Trading activity across sentiment regimes
+- Buy vs Sell behavior under different market conditions
+- Position sizing and risk exposure
+
+Through statistical analysis and data visualization, the project highlights patterns in trader behavior and performance across different sentiment environments.
+
+The findings provide insights into how **market psychology may influence trading outcomes**, and how sentiment indicators could potentially be used as signals for understanding trader behavior in cryptocurrency derivatives markets.
 
 ---
 
@@ -268,11 +283,3 @@ Your browser will open automatically. Run all cells sequentially with **Kernel �
 
 - 🐙 GitHub: [@srihithachayanam](https://github.com/srihithachayanam)
 - 💼 LinkedIn: [linkedin.com/in/srihitha-chayanam-092126303/](https://www.linkedin.com/in/srihitha-chayanam-092126303/)
-
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
----
-<p align="center">
-  Built with curiosity and conviction — where on-chain data meets market psychology.
-</p>
